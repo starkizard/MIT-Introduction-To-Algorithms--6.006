@@ -36,12 +36,6 @@ int main()
             cin >> vec[i][j];
         }
     }
-    f(i,0,n){
-        f(j,0,m){
-            cout << vec[i][j] << "\t";
-        }
-        cout <<"\n";
-    }
     ll curri=0,currj=0;
     ll moves=0;
     ll peaki,peakj,peakvalue;
